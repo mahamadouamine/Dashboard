@@ -1,0 +1,6 @@
+Design: Liquid Glass de Apple & présence de country map svg(https://dribbble.com/search/dashboard-glass-effect)
+	Animated Background
+
+CRUD: il faudra utiliser le JS pour que les backdrops ne soit pas en conflit
+
+API: https://www.apicountries.com/countries/name/Niger
