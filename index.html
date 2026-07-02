@@ -35,49 +35,68 @@
     <div class="bg bg3"></div>
     <div class="flex h-full justify-center gap-5 items-center py-2 px-3">
       <div
-        class="flex flex-col w-[16%] px-2 py-4 bg-[#80808081] backdrop-blur rounded gap-10 h-full bg-[linear-gradient(to_bottom,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%)] bg-[linear-gradient(to_top,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%),linear-gradient(to_bottom,#888888_0.1%,#888888_0.1%,transparent_1%,transparent_1%),linear-gradient(to_left,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%),linear-gradient(to_right,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%)]"
-      >
-        <img src="assets/Logo.svg" alt="" />
+        class="flex flex-col w-[16%] h-full overflow-y-auto px-2 py-3
+         gap-4 md:gap-5 xl:gap-10
+         bg-[#80808081] backdrop-blur rounded
+         overflow-y-auto
+         bg-[linear-gradient(to_top,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%),linear-gradient(to_bottom,#888888_0.1%,#888888_0.1%,transparent_1%,transparent_1%),linear-gradient(to_left,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%),linear-gradient(to_right,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%)]">
+        <img
+    src="assets/Logo.svg"
+    alt=""
+    class="w-full max-w-[120px] md:max-w-[150px] xl:max-w-full mx-auto"
+/>
 
-        <div class="flex flex-col gap-2">
+        <div class="flex flex-col gap-1 md:gap-2">
           <a href="index.html">
             <span
-              class="flex items-center px-2 py-1 text-white rounded bg-[#FF6C33] text-2xl"
+              class="flex items-center px-2 py-2
+       text-sm md:text-base xl:text-2xl
+       rounded text-white bg-[#FF6C33]"
             >
               Dashboard >
             </span>
           </a>
           <a href="utilisateur.html">
             <span
-              class="flex items-center px-2 py-1 text-white rounded hover:bg-[#B0B0B081] text-2xl"
+              class="flex items-center px-2 py-2
+       text-sm md:text-base xl:text-2xl
+       rounded text-white"
             >
               Utilisateurs >
             </span>
           </a>
           <a href="messagerie.html">
             <span
-              class="flex items-center px-2 py-1 text-white rounded hover:bg-[#B0B0B081] text-2xl"
+              class="flex items-center px-2 py-2
+       text-sm md:text-base xl:text-2xl
+       rounded text-white"
             >
               Messagerie >
             </span>
           </a>
           <a href="tache.html">
             <span
-              class="flex items-center px-2 py-1 text-white rounded hover:bg-[#B0B0B081] text-2xl"
+              class="flex items-center px-2 py-2
+       text-sm md:text-base xl:text-2xl
+       rounded text-white"
             >
               Taches >
             </span>
           </a>
           <a href="calendrier.html">
             <span
-              class="flex items-center px-2 py-1 text-white rounded hover:bg-[#B0B0B081] text-2xl"
+              class="flex items-center px-2 py-2
+       text-sm md:text-base xl:text-2xl
+       rounded text-white"
             >
               Calendrier >
             </span>
           </a>
           <a href="compte.html">
             <span
-              class="flex items-center px-2 py-1 text-white rounded hover:bg-[#B0B0B081] text-2xl"
+              class="flex items-center px-2 py-2
+       text-sm md:text-base xl:text-2xl
+       rounded text-white"
             >
               Comtes >
             </span>
@@ -155,25 +174,27 @@
           </div>
         </header>
         <main
-          class="flex bg-[#80808081] w-full h-[88%] backdrop-blur gap-5 p-4 rounded bg-[linear-gradient(to_bottom,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%)] bg-[linear-gradient(to_top,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%),linear-gradient(to_bottom,#888888_0.1%,#888888_0.1%,transparent_1%,transparent_1%),linear-gradient(to_left,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%),linear-gradient(to_right,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%)]"
+          class=" h-screen overflow-hidden bg-[#80808081] w-full h-[88%] backdrop-blur rounded bg-[linear-gradient(to_bottom,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%)] bg-[linear-gradient(to_top,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%),linear-gradient(to_bottom,#888888_0.1%,#888888_0.1%,transparent_1%,transparent_1%),linear-gradient(to_left,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%),linear-gradient(to_right,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%)]"
         >
-          <div class="flex flex-col gap-3 2xl:pt-6 w-[48%]">
+          <div class="md:flex h-full overflow-y-auto gap-2 md:gap-3 xl:gap-5 p-2 md:p-3 xl:p-4">
+            <div class="flex flex-col gap-2 md:gap-3 md:w-[48%]">
             <p class="text-white text-2xl 2xl:text-xl">Statistique Nationale</p>
             <div
-              class="flex flex-col justify-center w-full rounded bg-[#777777] gap-3 pt-3 pr-20 2xl:pr-[8em] 2xl:pl-[3em] pb-[1em] bg-[linear-gradient(to_bottom,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%)] bg-[linear-gradient(to_top,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%),linear-gradient(to_bottom,#888888_0.1%,#888888_0.1%,transparent_1%,transparent_1%),linear-gradient(to_left,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%),linear-gradient(to_right,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%)]"
+              class="flex flex-col justify-center w-full rounded bg-[#777777] gap-2 pt-2 pb-2 pr-6 md:pr-10 xl:pr-20 bg-[linear-gradient(to_bottom,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%)] bg-[linear-gradient(to_top,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%),linear-gradient(to_bottom,#888888_0.1%,#888888_0.1%,transparent_1%,transparent_1%),linear-gradient(to_left,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%),linear-gradient(to_right,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%)]"
             >
               <svg
                 baseprofile="tiny"
                 fill="#ff6932"
-                height="400"
+
                 stroke="#ffffff"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width=".8"
                 version="1.2"
                 viewbox="0 0 1000 786"
-                width="500"
                 xmlns="http://www.w3.org/2000/svg"
+                class="w-full max-w-[340px] md:max-w-[380px] xl:max-w-[500px] h-auto mx-auto"
+
               >
                 <g id="features">
                   <path
@@ -276,16 +297,14 @@
               </p>
             </div>
           </div>
-          <div class="flex justify-end gap-2 2xl:h-[70%] w-[48%]">
-            <div class="flex flex-col h-[98%] w-[48%] gap-5">
+          <div class="flex justify-end gap-2 md:gap-3 md:w-[48%]">
+            <div class="flex flex-col h-full w-[48%] gap-2 md:gap-3">
               <div
                 class="flex flex-col items-center justify-center rounded-xl py-4 px-5 min-h-[50%] bg-[#777777] bg-[linear-gradient(to_bottom,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%)] bg-[linear-gradient(to_top,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%),linear-gradient(to_bottom,#888888_0.1%,#888888_0.1%,transparent_1%,transparent_1%),linear-gradient(to_left,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%),linear-gradient(to_right,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%)]"
               >
-                <p class="text-white text-xl">Statistiques Utilisateurs</p>
+                <p class="text-white text-base md:text-lg xl:text-xl">Statistiques des utilisateurs</p>
                 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
                 <svg
-                  width="400px"
-                  height="400px"
                   viewBox="0 0 2253.00 2253.00"
                   version="1.1"
                   xml:space="preserve"
@@ -306,6 +325,7 @@
                   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
                   xmlns="http://www.w3.org/2000/svg"
                   xmlns:svg="http://www.w3.org/2000/svg"
+                  class="w-full max-w-[180px] md:max-w-[220px] xl:max-w-[320px] h-auto"
                 >
                   <defs id="defs16" />
                   <sodipodi:namedview
@@ -380,9 +400,10 @@
                   <span class="flex w-[2.2em] h-[0.8em] bg-[#FFB69B]"></span>
                   <p class="text-white">Utilisateurs actif</p>
                 </div>
+
               </div>
               <div
-                class="flex flex-col justify-center rounded-xl px-3 pb-4 bg-[#777777] min-h-[50%] text-white bg-[linear-gradient(to_bottom,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%)] bg-[linear-gradient(to_top,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%),linear-gradient(to_bottom,#888888_0.1%,#888888_0.1%,transparent_1%,transparent_1%),linear-gradient(to_left,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%),linear-gradient(to_right,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%)]"
+                class="flex flex-col justify-center rounded-xl bg-[#777777] px-2 md:px-3 pb-2 md:pb-3 min-h-[220px] xl:min-h-[50%] text-white bg-[linear-gradient(to_bottom,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%)] bg-[linear-gradient(to_top,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%),linear-gradient(to_bottom,#888888_0.1%,#888888_0.1%,transparent_1%,transparent_1%),linear-gradient(to_left,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%),linear-gradient(to_right,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%)]"
               >
                 <p class="flex w-full justify-center pb-4 text-xl">
                   Dernières notifications
@@ -393,15 +414,13 @@
                 <p class="py-2">Lorem ipsum ...</p>
               </div>
             </div>
-            <div class="flex flex-col h-[98%] w-[48%] gap-5">
+            <div class="flex flex-col h-full w-[48%] gap-2 md:gap-3">
               <div
                 class="flex flex-col items-center justify-center rounded-xl py-4 px-5 min-h-[50%] bg-[#777777] bg-[linear-gradient(to_bottom,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%)] bg-[linear-gradient(to_top,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%),linear-gradient(to_bottom,#888888_0.1%,#888888_0.1%,transparent_1%,transparent_1%),linear-gradient(to_left,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%),linear-gradient(to_right,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%)]"
               >
-                <p class="text-white text-xl">Statistiques des taches</p>
+                <p class="text-white text-base md:text-lg xl:text-xl">Statistiques des taches</p>
                 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
                 <svg
-                  width="400px"
-                  height="400px"
                   viewBox="0 0 2253.00 2253.00"
                   version="1.1"
                   xml:space="preserve"
@@ -422,6 +441,7 @@
                   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
                   xmlns="http://www.w3.org/2000/svg"
                   xmlns:svg="http://www.w3.org/2000/svg"
+                  class="w-full max-w-[180px] md:max-w-[220px] xl:max-w-[320px] h-auto"
                 >
                   <defs id="defs16" />
                   <sodipodi:namedview
@@ -502,7 +522,7 @@
                 </div>
               </div>
               <div
-                class="flex flex-col justify-center rounded-xl px-3 pb-4 bg-[#777777] min-h-[50%] text-white bg-[linear-gradient(to_bottom,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%)] bg-[linear-gradient(to_top,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%),linear-gradient(to_bottom,#888888_0.1%,#888888_0.1%,transparent_1%,transparent_1%),linear-gradient(to_left,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%),linear-gradient(to_right,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%)]"
+                class="flex flex-col justify-center rounded-xl bg-[#777777] px-2 md:px-3 pb-2 md:pb-3 min-h-[220px] xl:min-h-[50%] text-white bg-[linear-gradient(to_bottom,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%)] bg-[linear-gradient(to_top,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%),linear-gradient(to_bottom,#888888_0.1%,#888888_0.1%,transparent_1%,transparent_1%),linear-gradient(to_left,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%),linear-gradient(to_right,#888888_0.01%,#888888_0.01%,transparent_0.3%,transparent_0.3%)]"
               >
                 <p class="flex w-full justify-center pb-4 text-xl">
                   Dernières notifications
@@ -513,6 +533,7 @@
                 <p class="py-2">Lorem ipsum ...</p>
               </div>
             </div>
+          </div>
           </div>
         </main>
       </div>
